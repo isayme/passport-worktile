@@ -1,6 +1,6 @@
 {
   "name": "passport-processon",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "processon authentication strategy for Passport and Node.js.",
   "main": "./lib",
   "scripts": {

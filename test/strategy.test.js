@@ -1,12 +1,12 @@
 var expect = require('chai').expect;
-var ProcessonStrategy = require('../lib').Strategy;
+var WorktileStrategy = require('../lib').Strategy;
 
 describe('Strategy', function() {
-  it('should be named processon', function() {
-    var strategy = new ProcessonStrategy({
+  it('should be named worktile', function() {
+    var strategy = new WorktileStrategy({
       clientID: 'id',
       clientSecret: 'sec'
     }, function() {});
-    expect(strategy.name).to.be.equal('processon');
+    expect(strategy.name).to.be.equal('worktile');
   });
 });

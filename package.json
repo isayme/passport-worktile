@@ -1,17 +1,17 @@
 {
-  "name": "passport-processon",
-  "version": "0.0.2",
-  "description": "processon authentication strategy for Passport and Node.js.",
+  "name": "passport-worktile",
+  "version": "0.0.1",
+  "description": "worktile authentication strategy for Passport and Node.js.",
   "main": "./lib",
   "scripts": {
     "test": "mocha"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/isayme/passport-processon.git"
+    "url": "https://github.com/isayme/passport-worktile.git"
   },
   "keywords": [
-    "processon",
+    "worktile",
     "oauth2",
     "passport",
     "authentication"
@@ -19,14 +19,15 @@
   "author": "iSayme <isaymeorg@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/isayme/passport-processon/issues"
+    "url": "https://github.com/isayme/passport-worktile/issues"
   },
-  "homepage": "https://github.com/isayme/passport-processon",
+  "homepage": "https://github.com/isayme/passport-worktile",
   "devDependencies": {
     "chai": "^3.4.1",
     "mocha": "^2.3.4"
   },
   "dependencies": {
-    "passport-oauth2": "^1.1.2"
+    "passport-oauth2": "^1.1.2",
+    "request": "^2.70.0"
   }
 }

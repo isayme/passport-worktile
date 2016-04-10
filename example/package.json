@@ -1,5 +1,5 @@
 {
-  "name": "passport-processon-example",
+  "name": "passport-worktile-example",
   "version": "0.0.0",
   "description": "",
   "main": "app.js",
@@ -11,6 +11,6 @@
   "dependencies": {
     "express": "^4.13.3",
     "passport": "^0.3.2",
-    "passport-processon": "*"
+    "passport-worktile": "*"
   }
 }

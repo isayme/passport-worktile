@@ -4,8 +4,6 @@ var WorktileStrategy = require('passport-worktile').Strategy;
 
 var WORKTILE_CLIENT_ID = '--insert-worktile-client-id-here--';
 var WORKTILE_CLIENT_SECRET = '--insert-worktile-client-secret-here--';
-var WORKTILE_CLIENT_ID = 'e8f6d448ebde4394aa2951737a343452';
-var WORKTILE_CLIENT_SECRET = '8b3ddbb19d8b46379cb6bd293dc0334b';
 
 passport.serializeUser(function(user, done) {
   done(null, user);
